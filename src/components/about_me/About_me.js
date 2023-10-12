@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { useInView } from 'react-intersection-observer';
-function About_me() {
+function AboutMe() {
     const about_sentence="Hello! Glad to have you here! I am a current senior at the University of California, Davis studying computer science. I am an aspiring software and full-stack developer who has worked on front-end and backend technologies and wish to continue to share my knowledge while also continuing to grow. I have developed knowledge in Front end skills such as HTML, CSS, Javascript, React, and much more. Alongside front-end, I have developed skills on backend using Node.js, Express, Firebase, SQL, and much more. I continue to hone and excel my skills by having the opportunity to work with clubs such as Google Developers Club and Ascend.";
     const open_link=(url)=>{
         window.open(url, '_blank');
@@ -56,4 +56,4 @@ function About_me() {
     )
 }
 
-export default About_me
+export default AboutMe

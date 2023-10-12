@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-function Light_bar(props) {
+function LightBar(props) {
     const light_color={
         backgroundColor:"white",
         height:"0.5vh",
@@ -12,4 +12,4 @@ function Light_bar(props) {
     )
 }
 
-export default Light_bar
+export default LightBar

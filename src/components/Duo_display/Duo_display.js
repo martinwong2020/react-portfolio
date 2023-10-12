@@ -3,7 +3,7 @@ import { useState } from 'react';
 import "./style.css"
 import Path from '../path/Path';
 import Project from '../project/Project';
-function Duo_display() {
+function DuoDisplay() {
 
     const [default_view,setDefault_view]=useState(true);
 
@@ -20,4 +20,4 @@ function Duo_display() {
     )
 }
 
-export default Duo_display
+export default DuoDisplay
