@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.f7ea149e.css",
+    "main.js": "/react-gh-pages/static/js/main.ddb9ffb5.js",
+    "static/media/ai-art-illustration-Tokyo-Japan-street-neon.jpg": "/react-gh-pages/static/media/ai-art-illustration-Tokyo-Japan-street-neon.e77f5281b3e387788818.jpg",
+    "static/media/car-automotive-lighting.jpg": "/react-gh-pages/static/media/car-automotive-lighting.637b2af63439be904e23.jpg",
+    "static/media/neon-ramen-shop.jpg": "/react-gh-pages/static/media/neon-ramen-shop.401ee4df128171ac353b.jpg",
+    "static/media/Manga.PNG": "/react-gh-pages/static/media/Manga.c7874ab9367431ce3352.PNG",
+    "static/media/Old_portfolio.PNG": "/react-gh-pages/static/media/Old_portfolio.185349b5d903387ffb51.PNG",
+    "static/media/Pern.PNG": "/react-gh-pages/static/media/Pern.33f846e4c58bfdb4d137.PNG",
+    "static/media/Stock.PNG": "/react-gh-pages/static/media/Stock.8321a34f9e46366b8491.PNG",
+    "static/media/Tic_tac_toe.PNG": "/react-gh-pages/static/media/Tic_tac_toe.4eded5e92add282340d1.PNG",
+    "static/media/Gumball.PNG": "/react-gh-pages/static/media/Gumball.6dfc55112f3dbb9a518d.PNG",
+    "index.html": "/react-gh-pages/index.html",
+    "main.f7ea149e.css.map": "/react-gh-pages/static/css/main.f7ea149e.css.map",
+    "main.ddb9ffb5.js.map": "/react-gh-pages/static/js/main.ddb9ffb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7ea149e.css",
+    "static/js/main.ddb9ffb5.js"
+  ]
+}
