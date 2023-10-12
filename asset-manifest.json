@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.618e32da.css",
-    "main.js": "/react-gh-pages/static/js/main.e8f9c69d.js",
-    "static/media/ai-art-illustration-Tokyo-Japan-street-neon.jpg": "/react-gh-pages/static/media/ai-art-illustration-Tokyo-Japan-street-neon.e77f5281b3e387788818.jpg",
-    "static/media/car-automotive-lighting.jpg": "/react-gh-pages/static/media/car-automotive-lighting.637b2af63439be904e23.jpg",
-    "static/media/neon-ramen-shop.jpg": "/react-gh-pages/static/media/neon-ramen-shop.401ee4df128171ac353b.jpg",
-    "static/media/Manga.PNG": "/react-gh-pages/static/media/Manga.c7874ab9367431ce3352.PNG",
-    "static/media/Old_portfolio.PNG": "/react-gh-pages/static/media/Old_portfolio.185349b5d903387ffb51.PNG",
-    "static/media/Pern.PNG": "/react-gh-pages/static/media/Pern.33f846e4c58bfdb4d137.PNG",
-    "static/media/Stock.PNG": "/react-gh-pages/static/media/Stock.8321a34f9e46366b8491.PNG",
-    "static/media/Tic_tac_toe.PNG": "/react-gh-pages/static/media/Tic_tac_toe.4eded5e92add282340d1.PNG",
-    "static/media/Gumball.PNG": "/react-gh-pages/static/media/Gumball.6dfc55112f3dbb9a518d.PNG",
-    "index.html": "/react-gh-pages/index.html",
-    "main.618e32da.css.map": "/react-gh-pages/static/css/main.618e32da.css.map",
-    "main.e8f9c69d.js.map": "/react-gh-pages/static/js/main.e8f9c69d.js.map"
+    "main.css": "/martinwong2020/react-portfolio/static/css/main.0b1d454a.css",
+    "main.js": "/martinwong2020/react-portfolio/static/js/main.a1059be3.js",
+    "static/media/ai-art-illustration-Tokyo-Japan-street-neon.jpg": "/martinwong2020/react-portfolio/static/media/ai-art-illustration-Tokyo-Japan-street-neon.e77f5281b3e387788818.jpg",
+    "static/media/car-automotive-lighting.jpg": "/martinwong2020/react-portfolio/static/media/car-automotive-lighting.637b2af63439be904e23.jpg",
+    "static/media/neon-ramen-shop.jpg": "/martinwong2020/react-portfolio/static/media/neon-ramen-shop.401ee4df128171ac353b.jpg",
+    "static/media/Manga.PNG": "/martinwong2020/react-portfolio/static/media/Manga.c7874ab9367431ce3352.PNG",
+    "static/media/Old_portfolio.PNG": "/martinwong2020/react-portfolio/static/media/Old_portfolio.185349b5d903387ffb51.PNG",
+    "static/media/Pern.PNG": "/martinwong2020/react-portfolio/static/media/Pern.33f846e4c58bfdb4d137.PNG",
+    "static/media/Stock.PNG": "/martinwong2020/react-portfolio/static/media/Stock.8321a34f9e46366b8491.PNG",
+    "static/media/Tic_tac_toe.PNG": "/martinwong2020/react-portfolio/static/media/Tic_tac_toe.4eded5e92add282340d1.PNG",
+    "static/media/Gumball.PNG": "/martinwong2020/react-portfolio/static/media/Gumball.6dfc55112f3dbb9a518d.PNG",
+    "index.html": "/martinwong2020/react-portfolio/index.html",
+    "main.0b1d454a.css.map": "/martinwong2020/react-portfolio/static/css/main.0b1d454a.css.map",
+    "main.a1059be3.js.map": "/martinwong2020/react-portfolio/static/js/main.a1059be3.js.map"
   },
   "entrypoints": [
-    "static/css/main.618e32da.css",
-    "static/js/main.e8f9c69d.js"
+    "static/css/main.0b1d454a.css",
+    "static/js/main.a1059be3.js"
   ]
 }
