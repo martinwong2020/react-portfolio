@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+.welcome_container{
+    background-color: #1a1a1d;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+.welcome_header_container{
+    /* margin-top:20vh; */
+    width:80vw;
+    /* display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+.welcome_header_container  .welcome_animate_container h1{  
+    font-size:calc(20px + 3.5vw);
+    padding:2.5vh 5vw 2.5vh 5vw;
+    color:black;
+    font-family: 'Warnes';
+}
+.welcome_animate_container {
+    display: inline-block;
+    border:solid 3px black;
+    border-radius: 1rem; 
+}
+.welcome_header_container > h2{
+    font-size:calc(10px + 1.5vw);
+    margin-top:5vh;
+}
+.invisible{
+    opacity: 0;
+}
+.white-text{
+    color:white;
+    margin:0;
+}
+.glow_text{
+    animation:ease 0.75s glow_text_in forwards;
+    animation-delay:1s;
+}
+.glow_border{
+    animation:ease 0.75s glow_border_in forwards;
+    animation-delay:0.5s;
+}
+.slide-text-1{
+    opacity:0;
+    animation: linear 0.75s slide-text forwards;
+    animation-delay:1.5s;
+}
+.hovered{
+    text-shadow: none;
+    color:black;
+}
+@keyframes glow_text_in{
+    0%{
+    }
+    100%{
+        color:white;
+        text-shadow:0 0 0.5rem #fff, 
+                0 0 2rem rgb(255, 0, 255), 
+                0 0 3rem rgb(255, 0, 255);
+    }
+}
+@keyframes glow_border_in{
+    0%{
+    }
+    100%{
+        border:solid 3px white;
+        box-shadow: 0 0 0.5rem #fff, 
+                inset 0 0 0.5rem #fff, 
+                0 0 2rem #08f, 
+                inset 0 0 2rem #08f, 
+                0 0 3rem #08f, 
+                inset 0 0 3rem #08f;
+    }
+}
+@keyframes slide-text{
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,73 @@
+.loading_container{
+    height:100vh;
+    width:100vw;
+    
+    background:url(../../images/ai-art-illustration-Tokyo-Japan-street-neon.jpg);
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+}
+.loading_container .note{
+    color:rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 95.5%;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: calc(5px + 0.5vw);
+    text-align: center;
+}
+
+.loading_container .button_container{
+    width:100vw;
+    background-color: transparent;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* display: none; */
+    opacity:0;
+    animation: slide-in ease 1s forwards;
+    animation-delay: 1s;
+    /* background-color: green; */
+}
+.button_container .inner_button{
+    background-color: transparent;
+    width:100px;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.button_container .left_arrow{
+    height:5px;
+    width:50px;
+    background-color:white;
+    transform:rotate(30deg);
+    position: absolute;
+    margin-right:42px
+}
+.button_container .right_arrow{
+    height:5px;
+    width:50px;
+    background-color:white;
+    transform:rotate(-30deg);
+    position: absolute;
+    margin-left:42px
+}
+@keyframes slide-in{
+    0%{
+        opacity:0;
+        transform: translateY(100%);
+    }
+    50%, 100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

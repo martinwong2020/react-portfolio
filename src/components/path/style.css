@@ -1,0 +1,185 @@
+.path_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border:solid 3px green; */
+    width:100%;
+    height:auto;
+    background-color: #1a1a1d;
+    padding-bottom: 5vh;
+    /* padding-top:10vh; */
+}
+.path_container .card_container{
+    display: flex;
+    /* place-items: center;
+    place-content: center; */
+    /* grid-template-columns: repeat(6,1fr); */
+    width:100%;
+    gap:0vh 28px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    height:55vh;
+}
+.path_container .path_card{
+    height:350px;
+    width:100px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: width 1s ease;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    box-shadow: 0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue;
+    overflow: hidden;
+}
+.path_container .path_card:hover{
+    width:300px;
+}
+.path_container .path_card .card_header{
+    position:absolute;
+    top:50%;
+    transition: top 1s ease, transform 1s ease;
+    transform: rotate(90deg);
+    transform-origin: center;
+    width:300px;
+    text-align: center;
+    color:white;
+    text-shadow:0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue;
+}
+
+.path_container .path_card .card_content{
+    /* visibility: hidden; */
+    opacity:0;
+    position:absolute;   
+    color:white;
+    top:50%;
+    /* border:solid 3px green; */
+    /* height:35%; */
+    /* overflow: hidden; */
+    transition: top 1.5s ease, opacity 0.5s ease, overflow 1s ease;
+    /* transition-property: top, opacity, display;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 10s, 10s, 10s; */
+    text-align: center;
+    padding:10px;
+    text-shadow:0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue;
+    overflow-y: auto;
+
+}
+.path_container .path_card:hover .card_content{
+    /* visibility: visible; */
+    opacity:1;
+    position:absolute;   
+    top:20%;
+    overflow-y: auto;
+    height:70%;
+    /* border:solid 3px green; */
+    /* height:auto; */
+}
+.path_container .path_card:hover .card_header{
+    /* animation: path_card_transform_text 1s ease forwards; */
+    top:10%;
+    transform: rotate(0deg);
+    /* animation-delay:1s; */
+}
+.mini_light{
+    height:3px;
+    background-color: white;
+    box-shadow: 0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue;
+    width:80%;
+    position: absolute;
+    top:20%;
+    transition: box-shadow 1s ease;
+}
+
+.path_container .path_card:hover .mini_light{
+    box-shadow: 0px 0px 10px green,
+                0px 0px 10px green,
+                0px 0px 10px aliceblue;
+}
+.top_light{
+    height:3px;
+    background-color: white;
+    box-shadow: 0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue,
+                0px 0px 10px aliceblue;
+    width:80%;
+    /* position: absolute;
+    top:20%; */
+}
+@media only screen and (max-width:750px){
+    .path_container .card_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(2, 1fr); */
+        place-items: center;
+        width:100%;
+        gap:19px 18px;
+        /* border:solid 3px green; */
+        padding:10px;
+    }
+    .path_container .path_card{
+        height:100px;
+        width:350px;
+        background-color: transparent;
+        border-radius: 10px;
+        transition: height 1s ease;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        position:relative;
+        box-shadow: 0px 0px 10px aliceblue,
+                    0px 0px 10px aliceblue,
+                    0px 0px 10px aliceblue;
+        overflow: hidden;
+    }
+    .path_container .path_card .card_header{
+        position:absolute;
+        top:50%;
+        transition: top 1s ease, transform 1s ease;
+        transform: rotate(0);
+        transform-origin: center;
+        width:300px;
+        text-align: center;
+        color:white;
+        text-shadow:0px 0px 10px aliceblue,
+                    0px 0px 10px aliceblue,
+                    0px 0px 10px aliceblue;
+    }
+    .path_container .path_card:hover{
+        height:300px;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    .path_container .card_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(2, 1fr); */
+        place-items: center;
+        width:80%;
+        gap:19px 18px;
+        width:100%;
+        padding:10px;
+    }
+    .path_container .path_card{
+        height:100px;
+        width:250px;
+    }
+    .path_container .path_card:hover{
+        height:300px;
+    }
+    .path_container .path_card .card_header{
+        top:55%;
+    }
+}

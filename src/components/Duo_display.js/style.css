@@ -1,0 +1,71 @@
+.duo_container{
+    width:100vw;
+    height:auto;
+    background-color: #1a1a1d;
+    color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.duo_container .button_switch_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    background-color: #1a1a1d;
+    font-size: calc(7px + 0.5vw);
+    
+}
+.duo_container .button_switch_container .path_view{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.duo_container .button_switch_container .button{
+    height:3vh;
+    /* border-top:solid 3px white; */
+    width:80px;
+    text-align: center;
+    cursor:pointer;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px orange,
+                0px 0px 10px orange,
+                0px 0px 10px orange,
+                0px 0px 10px inset orange,
+                0px 0px 10px inset orange;
+}
+.duo_container .button_switch_container .path_view:hover, .duo_container .button_switch_container .project_view:hover{
+    background-color: orange;
+    color:white;
+    text-align: center;
+}
+.duo_container .button_switch_container .project_view{ 
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.slide_in_animate{
+    animation: screen_slide_in 500ms ease;
+}
+.slide_in_animate2{
+    animation: screen_slide_in_2 500ms ease;
+}
+@keyframes screen_slide_in {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+} 
+@keyframes screen_slide_in_2 {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

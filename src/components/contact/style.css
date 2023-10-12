@@ -1,0 +1,67 @@
+.contact_container{
+    width:100vw;
+    /* height:auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+    background-color: #1a1a1d;
+    border:solid 3px green;
+}
+.contact_container .contact_content{
+    width:35%;
+    border:solid 5px white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+}
+.contact_container .contact_content input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    font-size:calc(15px + 0.5vw);
+}
+.contact_container .contact_content .input_container{
+    display:flex;
+    align-items: flex-end;
+    border-bottom: white 3px solid;
+    width:90%;
+}
+.contact_container .contact_content .input_container input{
+    color:white;
+}
+.contact_container .contact_content .content_container{
+    height:30%;
+    /* background-color: white; */
+    overflow-y: auto;
+    border-bottom: none;
+}
+.contact_container .contact_content .input_container #content{
+    height:100%;
+    /* background-color: green; */
+    text-align: auto;
+    width:100%;
+    text-wrap: wrap;
+    font-size:calc(5px + 1vw);
+}
+.contact_container .contact_content .button_container{
+    display:flex;
+    align-items: center;
+    border-bottom: white 3px solid;
+    width:90%;
+    color:white;
+    /* background-color: green; */
+    justify-content: center;
+    border-bottom: none;
+    height:10%;
+}
+.contact_container .contact_content .button_container button{
+    height:100%;
+    width:25%;
+}
+.contact_container .contact_content .button_container input{
+    height:100%;
+}

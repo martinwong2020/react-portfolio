@@ -1,0 +1,53 @@
+.about_me_container{
+    width:100vw;
+    background-color:#1B1B1B;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5vw;
+    padding-bottom: 5vw;
+}
+.about_me_container .about_me_content{
+    color:white;
+    width:80vw;
+}
+.about_me_container .about_me_content .about_me_intro h1{
+    font-size:calc(25px + 2.5vw);
+}
+.about_me_container .about_me_content .about_me_intro h3{
+    font-size:calc(15px + 0.5vw);
+    color:black;
+}
+/* .icon_container{
+    width:5vw;
+    height:5vh;
+    display:flex;
+    justify-content: flex-start;
+} */
+.animate_highlight{
+    animation: colorChange 0s linear forwards;
+}
+@keyframes colorChange {
+    0% {
+      color: black;
+    }
+    100% {
+      color: white; /* Final text color */
+    }
+  }
+.icon_container > a{
+    text-decoration: none;
+    color:white;
+}
+.about_me_container .about_me_content .about_me_intro .sc-icons{
+    width:calc(30px + 1.5vw);
+    height:calc(30px + 1.5vw);
+}
+.sc-icons{
+    cursor: pointer;
+}
+/* .about_me_content .about_me_intro h1{
+    margin:0;
+} */
